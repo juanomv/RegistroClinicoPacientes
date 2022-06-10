@@ -1,0 +1,21 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.Warring{
+    @apply text-yellow-500 font-light;
+}
+
+.delete{
+    @apply py-2 bg-red-500 ml-2 border border-red-500 cursor-pointer  hover:bg-white hover:text-red-500   
+}
+
+.button{
+    @apply bg-green-primary py-2 px-4 rounded-lg text-white text-lg
+}
+.inputFind{
+    @apply w-4/12 py-3 border-b border-blue-primary bg-gray-300 bg-opacity-100 pl-2 text-blue-primary 
+}
+
